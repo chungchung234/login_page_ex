@@ -1,0 +1,179 @@
+* {
+    
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.login_page{
+    position:relative;
+}
+.login{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 600px;
+    border: 1px solid #D2D0D0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.login_or_regi{
+    display:inline-block;
+    width:190px;
+    height:10px;
+    font-size: 20px;
+    margin: 20px 150px 10px 150px;
+}
+.login_or_regi::after{
+    position: absolute;
+    margin-left: 124px;;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(./LCH_LION_img/close.png);
+    background-size: 20px;
+}
+.welcom_message{
+    width: 380px;
+    height: 20px;
+    margin-top: 26px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 25px;
+}
+.welcom_message::before{
+    position: absolute;
+    margin-bottom: 25px;
+    left:0;
+    top:60px;
+    content: '';
+    width: 500px;
+    height: 1px;
+    background: #D2D0D0;
+}
+.img_control{
+    text-decoration-line: none;
+    position:relative;
+    width:120px;
+    height: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8F8F8F;
+    margin-left: 58px;
+}
+.check_img{
+    display: inline-block;
+    position: absolute;
+    margin-left: -30px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #8F8F8F;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+.login_button{
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 50px;
+    background: #2567E8;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.login_regi{
+    text-decoration-line: none;
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #8F8F8F;
+}
+.login_regi::after{
+    position: absolute;
+    content: '|';
+    width:4px;
+    height:18px;
+    margin: 0 12px;
+    color: #8F8F8F;
+}
+.login_search{
+    text-decoration-line: none;
+    margin-left: 28px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8F8F8F;
+}
+.login_or{
+    width:26px;
+    height:18px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 238px;
+    margin-bottom: 20px;
+    color: #8F8F8F;
+    display: flex;
+    align-items: center;
+
+}
+.login_or::before{
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #c4c4c4;
+    position:absolute;
+    left:24px;
+}
+.login_or::after{
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #D2D0D0;
+    position:absolute;
+    right:24px;
+}
+.sns_login{
+    display:flex;
+    width:450px;
+    height: 50px;
+    align-items: center;
+    margin-left: 24px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #8F8F8F;
+    
+}
+.sns_login img{
+    margin-right: 138px;
+    margin-left: 12px;
+}
+.google_login{
+    text-decoration-line: none;
+    border: 1px solid #8F8F8F;
+    border-radius: 5px;
+}
+.facebook_login{
+    text-decoration-line: none;
+    border: 1px solid #60abff;
+    border-radius: 5px;
+}
+.naver_login{
+    text-decoration-line: none;
+    border: 1px solid #50cd50;
+    border-radius: 5px;
+}
+.kakao_login{
+    text-decoration-line: none;
+    border: 1px solid 	#f4d373;
+    border-radius: 5px;
+}
